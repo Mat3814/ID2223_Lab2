@@ -54,4 +54,4 @@ We began with the Opus Book dataset and expanded to the Europarl dataset for Eng
 ## Results
 
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Mat3814/ID2223_Lab2/blob/main/Task2/Metrics/Bleu_score.png)
