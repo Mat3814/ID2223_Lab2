@@ -30,7 +30,7 @@ You can use this model as a chatbot on the hugging face space : https://huggingf
 The goal of this task was to finetune with scalability and performances, a model for a precise task.
 
 ### Plan :
-The work is divided in 3 notebooks
+The work is divided in 2 notebooks
 
 
 ### ID2223_Lab2_Translation_Model_creation.ipynb
@@ -45,13 +45,16 @@ This script restart fine-tunes a T5 model for English-to-French translation usin
 
 **Model Architecture**
 
-We used T5 Small, a compact version of the T5 model, which is ideal for translation tasks as it treats them as text-to-text problems. Its smaller size enables faster inference on CPUs while maintaining good translation quality, making it efficient for resource-limited environments.
+We used **T5 Small**, a compact version of the T5 model, which is ideal for translation tasks as it treats them as text-to-text problems. Its smaller size enables faster inference on CPUs while maintaining good translation quality, making it efficient for resource-limited environments.
 
 **Data Approach**
 
-We began with the Opus Book dataset and expanded to the Europarl dataset for English-French translation. The combination of these datasets provides a diverse range of sentence structures and vocabulary, improving the model's ability to generalize and perform better in real-world translation tasks.
+We began with the **Opus Book** dataset and expanded to the **Europarl** dataset for English-French translation. The combination of these datasets provides a diverse range of sentence structures and vocabulary, improving the model's ability to generalize and perform better in real-world translation tasks.
 
 ## Results
 
+BLEU score : The BLEU score is a metric used to evaluate the quality of machine-generated translations 
 
 ![alt text](https://github.com/Mat3814/ID2223_Lab2/blob/main/Task2/Metrics/Bleu_score.png)
+
+From 24K rows of training we started switching from opus book to europarl, here we saw clear improvements on the score
