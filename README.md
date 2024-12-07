@@ -21,11 +21,11 @@ The script merges a base LLaMA model with a LoRA adapter to fine-tune it, conver
 
 ## Usage
 
-You can use the adapter through this link : [ID2223-Lab/llama_lora_adapter]https://huggingface.co/ID2223-Lab/llama_lora_adapter
+You can use the adapter through this link : [ID2223-Lab/llama_lora_adapter](https://huggingface.co/ID2223-Lab/llama_lora_adapter)
 
-You can use the model from this link : [ID2223-Lab/llama_lora_merged_GGUF]https://huggingface.co/ID2223-Lab/llama_lora_merged_GGUF
+You can use the model from this link : [ID2223-Lab/llama_lora_merged_GGUF](https://huggingface.co/ID2223-Lab/llama_lora_merged_GGUF)
 
-You can interact with the chat bot on the hugging face space : [ID2223-Lab/iris]https://huggingface.co/spaces/ID2223-Lab/iris
+You can interact with the chat bot on the hugging face space : [ID2223-Lab/iris](https://huggingface.co/spaces/ID2223-Lab/iris)
 
 ## Task 2 : Improve pipeline scalability and model performance
 
