@@ -51,6 +51,13 @@ This script restart fine-tunes a T5 model for English-to-French translation usin
 
 We used **T5 Small**, a compact version of the T5 model, which is ideal for translation tasks as it treats them as text-to-text problems. Its smaller size enables faster inference on CPUs while maintaining good translation quality, making it efficient for resource-limited environments.
 
+Model hyperparameters : 
+
+**learning_rate**: 2e-5 - The learning rate for the optimizer, which controls the step size during gradient descent.
+**batch_size** : 16 - the number of training examples utilized in one forward and backward pass during training
+**weight_decay**: 0.01 - The rate of weight decay applied for regularization to prevent overfitting.
+**fp16**: True - Indicates whether 16-bit floating-point precision will be used to speed up training and reduce memory usage.
+
 **Data Approach**
 
 We began with the **Opus Book** dataset and expanded to the **Europarl** dataset for English-French translation. The combination of these datasets provides a diverse range of sentence structures and vocabulary, improving the model's ability to generalize and perform better in real-world translation tasks.
