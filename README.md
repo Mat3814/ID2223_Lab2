@@ -21,7 +21,7 @@ The script merges a base LLaMA model with a LoRA adapter to fine-tune it, conver
 
 ## Usage
 
-You can use this model as a chatbot on the hugging face space : https://huggingface.co/spaces/Mat17892/iris
+You can use this model as a chatbot on the hugging face space : https://huggingface.co/spaces/ID2223-Lab/iris
 
 ## Task 2 : Improve pipeline scalability and model performance
 
