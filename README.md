@@ -21,7 +21,7 @@ The script merges a base LLaMA model with a LoRA adapter to fine-tune it, conver
 
 ## Usage
 
-You can use this model as a chatbot on the hugging face space : https://huggingface.co/ID2223-Lab/iris
+You can use this model as a chatbot on the hugging face space : https://huggingface.co/spaces/Mat17892/iris
 
 ## Task 2 : Improve pipeline scalability and model performance
 
@@ -57,4 +57,8 @@ BLEU score : The BLEU score is a metric used to evaluate the quality of machine-
 
 ![alt text](https://github.com/Mat3814/ID2223_Lab2/blob/main/Task2/Metrics/Bleu_score.png)
 
-From 24K rows of training we started switching from opus book to europarl, here we saw clear improvements on the score
+From 24 we started switching from opus book to europarl, here we saw clear improvements on the score
+
+## Usage
+
+You can use this model on the hugging face space : 
