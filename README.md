@@ -70,7 +70,15 @@ BLEU score : The BLEU score is a metric used to evaluate the quality of machine-
 
 ![alt text](https://github.com/Mat3814/ID2223_Lab2/blob/main/Task2/Metrics/Bleu_curve.png)
 
-From 24 we started switching from opus book to europarl, here we saw clear improvements on the score
+From 24 we started switching from opus book to europarl, from here we see clear improvements on the score
+
+Loss : The LOSS is a metric used to evaluate how far the model's predictions are from the true target values. Here the loss represents the mean value of cross entropy loss over the dataset.
+
+![alt text](https://github.com/Mat3814/ID2223_Lab2/blob/main/Task2/Metrics/Loss_curve.png)
+
+From 24 we started switching from opus book to europarl, from here we see accordingly to the BLEU score that the loss decrease
+
+Note : Despite that we saw our model giving better answers ,the increase in performances can also be correlated to domain mismatch between the two datasets.
 
 ## Usage
 
