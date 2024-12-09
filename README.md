@@ -49,9 +49,11 @@ This script restart fine-tunes a T5 model for English-to-French translation usin
 
 **Model Architecture**
 
+- Model :
+
 We used **T5 Small**, a compact version of the T5 model, which is ideal for translation tasks as it treats them as text-to-text problems. Its smaller size enables faster inference on CPUs while maintaining good translation quality, making it efficient for resource-limited environments.
 
-Model hyperparameters : 
+- Model hyperparameters : 
 
 **learning_rate**: 2e-5 - The learning rate for the optimizer, which controls the step size during gradient descent.
 **batch_size** : 16 - the number of training examples utilized in one forward and backward pass during training
