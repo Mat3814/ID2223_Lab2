@@ -18,7 +18,7 @@ plt.plot(x_smooth, y_smooth, color='b', label='BLEU Score')
 
 # Personnalisation du graphique
 plt.title('BLEU Score', fontsize=16)
-plt.xlabel('100k Row of Training Datasets', fontsize=14)
+plt.xlabel('100k Rows of Training', fontsize=14)
 plt.ylabel('BLEU Score', fontsize=14)
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.legend(fontsize=12)

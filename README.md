@@ -66,7 +66,7 @@ We began with the **Opus Book** dataset and expanded to the **Europarl** dataset
 
 BLEU score : The BLEU score is a metric used to evaluate the quality of machine-generated translations 
 
-![alt text](https://github.com/Mat3814/ID2223_Lab2/blob/main/Task2/Metrics/Bleu_score.png)
+![alt text](https://github.com/Mat3814/ID2223_Lab2/blob/main/Task2/Metrics/Bleu_curve.png)
 
 From 24 we started switching from opus book to europarl, here we saw clear improvements on the score
 
