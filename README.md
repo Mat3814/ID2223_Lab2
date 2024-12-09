@@ -78,7 +78,7 @@ Loss : The LOSS is a metric used to evaluate how far the model's predictions are
 
 From 24 we started switching from opus book to europarl, from here we see accordingly to the BLEU score that the loss decrease
 
-Note : Despite that we saw our model giving better answers ,the increase in performances can also be correlated to domain mismatch between the two datasets.
+Note : Despite that we saw our model giving better answers ,the increase in performances can also be correlated to domain mismatch in evaluation sets between the two datasets.
 
 ## Usage
 
