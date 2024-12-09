@@ -74,4 +74,4 @@ From 24 we started switching from opus book to europarl, here we saw clear impro
 
 You can use the model on this link : [Mat17892/t5small_enfr_opus](https://huggingface.co/Mat17892/t5small_enfr_opus)
 
-You can interact with the translator on the hugging face space : [Heit39/UI_TranslationLLM] (https://huggingface.co/spaces/Heit39/UI_TranslationLLM)
+You can interact with the translator on the hugging face space : [Heit39/UI_TranslationLLM](https://huggingface.co/spaces/Heit39/UI_TranslationLLM)
